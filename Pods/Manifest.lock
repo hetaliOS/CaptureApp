@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.7.3)
+  - GRDB.swift (3.5.0)
+  - ReachabilitySwift (4.3.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - GRDB.swift
+  - ReachabilitySwift
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - GRDB.swift
+    - ReachabilitySwift
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  GRDB.swift: 225cf9c1354753e92e20c2a1fa2912b924c9da6e
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: dd74f7e1c21342eba0340b2e2c53dd08faff7b80
+
+COCOAPODS: 1.6.0.beta.2

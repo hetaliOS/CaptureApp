@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeCollectionViewCell" id="wP9-XN-Fvt" customClass="HomeCollectionViewCell" customModule="Capture" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zba-us-QYP">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="md2-hG-3HB">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="md2-hG-3HB" secondAttribute="trailing" id="XRC-Lu-ky2"/>
+                            <constraint firstAttribute="bottom" secondItem="md2-hG-3HB" secondAttribute="bottom" id="cIh-qp-Iml"/>
+                            <constraint firstItem="md2-hG-3HB" firstAttribute="leading" secondItem="zba-us-QYP" secondAttribute="leading" id="dN7-JF-YO0"/>
+                            <constraint firstItem="md2-hG-3HB" firstAttribute="top" secondItem="zba-us-QYP" secondAttribute="top" id="xPB-gy-GJo"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="zba-us-QYP" secondAttribute="bottom" id="Gad-ln-hrh"/>
+                <constraint firstItem="zba-us-QYP" firstAttribute="top" secondItem="wP9-XN-Fvt" secondAttribute="top" id="LDN-xs-EEn"/>
+                <constraint firstItem="zba-us-QYP" firstAttribute="leading" secondItem="wP9-XN-Fvt" secondAttribute="leading" id="WFs-qs-ZvM"/>
+                <constraint firstAttribute="trailing" secondItem="zba-us-QYP" secondAttribute="trailing" id="aJx-AT-5uR"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="d9E-LH-KRt"/>
+            <size key="customSize" width="216" height="168"/>
+            <connections>
+                <outlet property="imgCapture" destination="md2-hG-3HB" id="BWf-eq-FbK"/>
+                <outlet property="viewContainer" destination="zba-us-QYP" id="hge-oM-OLh"/>
+            </connections>
+            <point key="canvasLocation" x="-28" y="-44"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="placeholder" width="300" height="300"/>
+    </resources>
+</document>
